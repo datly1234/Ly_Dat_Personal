@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ly_Dat_Personal/1.0.0": {
+        "runtime": {
+          "Ly_Dat_Personal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ly_Dat_Personal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

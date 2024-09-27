@@ -1,11 +1,55 @@
-﻿<head>
-    <title>Party!</title>
-</head>
-<body>
-    <div>
-        <div class="text-center">
-            <h3>We're going to have an exciting party. </h3>
-            <a asp-action="RsvpForm" class="btn btn-primary">RSVP Now</a>
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Howdy! My name is Dat</h1>
+
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <img src="~/Attachments/dat_ly.jpg" alt="Dat Ly" class="img-fluid rounded-circle me-4" style="max-width: 200px;" />
+
+        <div class="card bg-light" style="max-width: 20rem;">
+            <div class="card-body">
+                <p class="card-text">I'm a 4th year MIS Major at University of Texas at Austin. Love to code and share the joy of creation!</p>
+            </div>
         </div>
     </div>
-</body>
+    
+    <p>Connect with me:</p>
+    <a href="mailto:dat.ly@utexas.edu" class="btn btn-primary"><i class="fas fa-envelope"></i> Email</a>
+    <a href="https://www.linkedin.com/in/datly" class="btn btn-info"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    
+    <h2 class="mt-4">My Favorite Restaurants in Austin!</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Place</th>
+                <th>Fav Dish</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1638</td>
+                <td>Beef Rib Pho</td>
+            </tr>
+            <tr>
+                <td>Kindii</td>
+                <td>Pad Thai</td>
+            </tr>
+            <tr>
+                <td>Soup Leaf</td>
+                <td>Hotpot</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2 class="mt-4">My Favorite TED Talk</h2>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8jPQjjsBbIc" allowfullscreen></iframe>
+    </div>
+    
+    <div class="mt-4">
+        <a asp-action="Professional" class="btn btn-primary">Professional Info</a>
+        <a asp-action="Personal" class="btn btn-success">Personal Info</a>
+    </div>
+</div>

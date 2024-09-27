@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ly_Dat_Personal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4e6b8878d3cd2a9a37b644d3c9385025c1c02b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e80e0547d2aca2f3e6937e03fb9edb04ee6df9ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ly_Dat_Personal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ly_Dat_Personal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

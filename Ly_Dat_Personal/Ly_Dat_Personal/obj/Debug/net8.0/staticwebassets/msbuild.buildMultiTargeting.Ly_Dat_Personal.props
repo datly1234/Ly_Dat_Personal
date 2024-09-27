@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ly_Dat_Personal.props" />
+</Project>
